@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+        <span id="menu">
+            <h2 class="menu-item">PowerCoders</h2>
+            <div class="menu-item" id="menu-item-home">
+                <button id="menu-item-home-link">Home</button>
+                <div id="menu-item-home-dropdown">
+                    <a href="#contact">Contact us</a>
+                </div>
+            </div>
+        </span>
+        <p id="spacing"></p> <!--hack-->
+        <a href="mailto:kevinliucuber@gmail.com" id="contact">Contact us</a>
+        <script>
+            // alert(Array(16).join('wat' - 1) + ' Batman!');
+        </script>
+        
+        <style>
+            *{
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            #menu{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                height: 76px;
+                right: 0px;
+                background-color: lightslategray;
+            }
+            .menu-item{
+                display: inline-block;
+            }
+            #menu-item-home-link{
+                border: none;
+                color: #393939;
+                background-color: cornflowerblue;
+            }
+            #menu-item-home:hover #menu-item-home-dropdown{
+                display: block;
+            }
+            #menu-item-home-dropdown{
+                background-color: aquamarine;
+                position: absolute;
+                display: none;
+            }
+            #spacing{
+                height: 76px;
+            }
+            #contact{
+                background-color: #f59042;
+                color: #3e515c;
+                text-decoration: none;
+                border: 3px solid black;
+                font-size: 54px;
+            }
+        </style>
+    </div>
+</body>
+</html>
