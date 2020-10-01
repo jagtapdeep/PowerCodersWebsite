@@ -1,0 +1,42 @@
+<html>
+ <head>
+    <title>Power Coders - Chat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+ </head>
+ <body>
+    <h1 class='logo'><span class='fa fa-power-off'></span> <span class='small'>Power</span> Coders</h1>
+    <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href='chat.html' class='here'>Chat</a></li>
+        </ul>
+    </nav>
+
+    <ul id="messages" class='message-box'></ul>
+    <div class='send-box'>
+      <input id='namebox' type='text' placeholder='Type your username'><br>
+      <input id="textbox" type="text">
+      <button id="button" class='send'>Send <span class='fa fa-comment'></span></button>
+    </div>
+ </body>
+</html>
+
+<script>
+
+var messages = document.getElementById("messages");
+var textbox = document.getElementById("textbox");
+var button = document.getElementById("button");
+
+button.addEventListener("click", function(){
+    var newMessage = document.createElement("li");
+    newMessage.innerHTML = namebox.value + ' - ' + textbox.value;
+    newMessage.className = 'normalmessage'
+    messages.appendChild(newMessage);
+    current = namebox.value;
+    textbox.value = "";
+    namebox.value = '';
+});
+
+</script>
