@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css?family=Alata);
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: 'Alata';
+}
+ul {
+  background-color: rgb(110, 110, 110);
+  padding: 0;
+  margin: 0;
+}
+nav > ul > li > a {
+  padding: 20px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-family: 'Alata';
+  margin: 0;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li:hover {
+  background-color: rgb(80, 80, 80);
+}
+.here {
+  background-color: rgb(60, 60, 60);
+}
+.field {
+  margin: 5px;
+  border: 1px solid rgb(161, 161, 161);
+  background-color: white;
+}
+.logo {
+  margin: 0;
+  color: white;
+  background-color: rgb(27, 27, 27);
+  padding: 20px;
+}
+.small {
+  font-size: 20px;
+}
+
+.register-link {
+  color: rgb(80, 80, 80);
+  margin: 0;
+}
+.login {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.register {
+  margin-left: 10px;
+}
+.message-box {
+  background-color: white;
+  font-family: 'Alata';
+  font-size: 15px;
+  list-style: none;
+  margin: none;
+  padding-bottom: 20px;
+}
+.normalmessage {
+  background-color: white;
+  border-bottom: 1px solid rgb(161, 161, 161);
+  padding: 10px;
+  width: 100%;
+  margin: none;
+}
+.send-box {
+  background-color: rgb(110, 110, 110);
+  padding: 10px;
+}
+.send {
+  border: none;
+  color: white;
+  background-color: rgb(60, 60, 60);
+  border: 2px solid rgb(60, 60, 60);
+  border-radius: 5px;
+}
+.big {
+  font-size: 100px;
+  color: white;
+  background-color: rgb(27, 27, 27);
+  padding: 25px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 100px;
+  margin-bottom: 15px;
+}
+.form {
+  width: 300px;
+  border: 1px solid rgb(179, 179, 179);
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+}
+.c {
+  margin: 0;
+}
+.button {
+  margin: 5px;
+  border: 1px solid black;
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+.login-field {
+  margin: 5px;
+  border: 1px solid rgb(161, 161, 161);
+  background-color: white;
+  width: 155px;
+}
+.joinmessage {
+  color: rgb(161, 161, 161);
+  background-color: white;
+  border-bottom: 1px dashed rgb(161, 161, 161);
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+.profile {
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
