@@ -1,2 +1,2 @@
 # PowerCoders Website
-interesting  PowerCoders Website.
+The PowerCoders Website.
