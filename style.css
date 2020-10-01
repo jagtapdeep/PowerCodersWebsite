@@ -35,3 +35,21 @@
     border: 3px solid black;
     font-size: 54px;
 }
+
+.nav-bar {
+    background-color: black;
+}
+.nav-bar > ul {
+    list-style: none;
+}
+.nav-bar > ul > li {
+    display: inline-block;
+}
+.nav-bar > ul > li:hover {
+    background-color: darkgray;
+}
+.nav-bar > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
