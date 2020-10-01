@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Power Coders - Login - Register</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <h1 class='logo'><span class='fa fa-power-off'></span> <span class='small'>Power</span> Coders</h1>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html" class='here'>Login</a></li>
+                <li><a href='chat.html'>Chat</a></li>
+                </ul>
+            </nav>
+            <div class='form'>
+                <span class='fa fa-power-off big'></span><br>
+                <h3 class='c'>Create an account</h3><br>
+                <input class='field' placeholder='Enter username'><br>
+                <div class="container">
+                    <div class="first-example">
+                    <input type="password" id="password-field" class='login-field' placeholder='Enter password'>
+                    <i id="pass-status" class="fa fa-eye" aria-hidden="true" onClick="viewPassword()"></i>
+                    </div>
+                </div>
+                <input type='password' class='field' placeholder='Confirm password'><br>
+                <a href='login.html'> 
+                    <button class='button'>
+                        Create Account
+                    </button>
+                </a>
+            </div>
+    </body>
+</html>
